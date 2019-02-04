@@ -1,0 +1,1 @@
+{"swagger":"2.0","paths":{"/CustDetails":{"get":{"responses":{"200":{"description":""}},"x-mediation-script":" mc.setProperty('CONTENT_TYPE', 'application/json');\n\t\t\t\tmc.setPayloadJSON('{ \"data\" : {print}}');\n\t\n\t\t\n\t\t\n\t\t","parameters":[{"name":"print","in":"query","required":true,"type":"string"}]}}},"info":{"title":"CustomerAPI","version":"1.0.0"}}a
